@@ -6,7 +6,8 @@ import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import './Header.css';
-function Header() {
+
+function Header()  {
     return (
     <div className = "header">
         <div className="header_left">
@@ -34,4 +35,4 @@ function Header() {
 
 }
 
-export default Header
+export default Header 
